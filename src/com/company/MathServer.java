@@ -57,9 +57,9 @@ public class MathServer extends UnicastRemoteObject implements MathService {
             registry.bind("CalculatorService", server);
             System.out.println("Service started...");
         } catch (RemoteException e) {
-            System.err.println(e.getMessage());
+            System.err.println("Remote exception" + e.getMessage());
         } catch (AlreadyBoundException e) {
-            System.err.println(e.getMessage());
+            System.err.println("Already bound exception" + e.getMessage());
         }
     }
 }
