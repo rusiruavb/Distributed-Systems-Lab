@@ -1,3 +1,7 @@
 MathService.class
 MathServer.class
 MathClient.class
+TemperatureListener.class
+TemperatureMonitor.class
+TemperatureSensor.class
+TemperatureSensorServer.class
